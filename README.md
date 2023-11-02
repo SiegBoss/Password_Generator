@@ -1,16 +1,24 @@
-# Generador de Contraseñas Aleatorias
-Este programa se utiliza para generar contraseñas aleatorias.
+# Generador de Contraseñas en Python
 
-- El código fue creado en Python.
-- Puede guardar contraseñas en un archivo .txt
-- En la carpeta "Programa exe" hay un ejecutable "Password Generator.exe" que es el programa listo para ejecutarse, no necesitas instalar nada para usarlo
+Este proyecto es un programa realizado en Python que permite generar contraseñas aleatorias y guardarlas en un archivo de texto.
+
+## Características
+- Generación de contraseñas aleatorias: El programa puede generar contraseñas seguras y aleatorias.
+- Guardado de contraseñas: Las contraseñas generadas pueden ser guardadas en un archivo de texto para su posterior uso.
+
+## Herramientas de Desarrollo
+- Lenguaje de programación: Python
 
 ---------------------------------------
 
-# Random Password Generator
+# Password generator in Python
 
-This program is used to generate random passwords.
+This project is a program made in Python that allows you to generate random passwords and save them in a text file.
 
-- The code was created in Python.
-- You can save passwords in a .txt file
-- In the "Programa exe" folder there is an executable "Password Generator.exe" which is the program ready to run, you don't need to install anything to use it
+## Characteristics
+- Random password generation: The program can generate secure and random passwords.
+- Save Password: Generated passwords can be saved to a text file for later use.
+
+## Development tools
+- Programming language: Python
+
