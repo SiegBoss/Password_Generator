@@ -76,11 +76,12 @@ def convert_integer():
 
 #Funcion que actualiza el ancho del Entry / Function that updates the width of the Entry
 def update_width(*args):
-    show_password.config(width=len(sv.get()) + 10)
+    length = len(sv.get())
+    new_length = length + 10
+    show_password.config(width=new_length)
 
 #Funcion que desactiva la opcion de guardar las contraseñas en un archivo de texto / Function that disables the option to save passwords in a text file
 def disable():
-    global verify2
     
     current_directory = os.getcwd()
     verify = name_txt.get()
@@ -100,6 +101,7 @@ def disable():
     
     verify2 = verify
 
+#Interfaz Grafica / Graphic Interface
 window = Tk()
 disable_save = IntVar()
 sv = StringVar()
@@ -155,4 +157,5 @@ show_password.grid(row=13, column=0, padx=1, pady=2)
 Label_empty_2= Label(window, text=" ")
 Label_empty_2.grid(row=14, column=0, padx=2, pady=2)
 
+#mainloop de la ventana / mainloop of the window
 window.mainloop()
