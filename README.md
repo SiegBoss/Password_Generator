@@ -51,5 +51,5 @@ This project is under the MIT license. See the `LICENSE` file for more details.
 -----------------------------------------
 
 <p align="center" >
-<img width="260px" height="340px" style="margin: 10px" src="./password_generator.png"> 
+<img width="360px" height="400px" style="margin: 10px" src="./password_generator.png"> 
 </p>
