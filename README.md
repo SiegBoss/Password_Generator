@@ -12,7 +12,7 @@ Este proyecto es un generador de contraseñas aleatorias implementado en Python 
 
 El proyecto consta de los siguientes archivos:
 
-- `password_generator.py` : Este es el archivo principal que contiene todo el código del generador de contraseñas.
+- `Password_Generator.py` : Este es el archivo principal que contiene todo el código del generador de contraseñas.
 
 ## Requisitos
 
@@ -38,7 +38,7 @@ This project is a random password generator implemented in Python with a user-fr
 
 The project consists of the following files:
 
-- `password_generator.py`: This is the main file that contains all the code for the password generator.
+- `Password_Generator.py`: This is the main file that contains all the code for the password generator.
 
 ## Requirements
 
@@ -51,5 +51,5 @@ This project is under the MIT license. See the `LICENSE` file for more details.
 -----------------------------------------
 
 <p align="center" >
-<img width="360px" height="400px" style="margin: 10px" src="./password_generator.png"> 
+<img width="360px" height="400px" style="margin: 10px" src="./Password_Generator.png"> 
 </p>
