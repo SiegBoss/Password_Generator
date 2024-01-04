@@ -12,6 +12,12 @@ capital_letter = lower_case.upper()
 symbols = "@#%$"
 numbers = "0123456789"
 
+
+#--------------------------------------------------------------
+
+
+#----------------
+
 # Funcion que genera la contraseña / Function that generates the password
 def password(num):
     
@@ -54,6 +60,11 @@ def password(num):
     # Muestra la contraseña en el Entry / Show the password in the Entry
     show_password.insert(0, password)
 
+#----------------
+
+
+#----------------
+
 # Funcion que convierte el numero de caracteres a entero / Function that converts the number of characters to integer
 def convert_integer():
     
@@ -73,6 +84,11 @@ def convert_integer():
     else:
         messagebox.showinfo("Alvertencia", "Solo se pueden Ingresar Numeros")
 
+#----------------
+
+
+#----------------
+
 # Funcion que actualiza el ancho del Entry / Function that updates the width of the Entry
 def update_width(*args):
     
@@ -80,6 +96,10 @@ def update_width(*args):
     new_length = length + 10
     show_password.config(width=new_length)
 
+#----------------
+
+
+#----------------
 # Funcion para el guardado de las contraseñas en un archivo de texto / Function for saving passwords in a text file
 def enable():
     
@@ -107,6 +127,10 @@ def enable():
         archive = os.path.join(current_directory, name_txt.get() + ".txt")
         open(archive, "w", encoding="UTF-8")
 
+#----------------
+
+
+#--------------------------------------------------------------
 
 # Interfaz Grafica / Graphic Interface
 window = Tk()
@@ -115,7 +139,7 @@ sv = StringVar()
 sv.trace("w", update_width)
 
 # Nombre de la ventana / Name of the window
-window.title("Password Generator")
+window.title("Generador de Contraseñas Aleatorias")
 window.configure(background="#3D405B")
 
 # Titulo del programa / Title of the program
@@ -174,7 +198,7 @@ checkbutton_save_passwords = Checkbutton(
 )
 checkbutton_save_passwords.grid(row=7, column=0, padx=2, pady=2)
 
-# nombre del archivo de texto / name of the text file
+# Nombre del archivo de texto / name of the text file
 Label_3 = Label(
     window,
     text="Nombre del Archivo de Texto",
@@ -230,3 +254,5 @@ Label_empty_2.grid(row=14, column=0, padx=2, pady=2)
 
 # mainloop de la ventana / mainloop of the window
 window.mainloop()
+
+#--------------------------------------------------------------
